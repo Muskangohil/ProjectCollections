@@ -1,0 +1,89 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up"],
+         "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day","bye"],
+         "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"],
+         "context_set": ""
+        },
+        {"tag": "age",
+         "patterns": ["how old", "how old are you", "what is your age", "how old is moa", "age?"],
+         "responses": ["I am 18 years old!", "18 years young!"],
+         "context_set": ""
+        },
+        {"tag": "name",
+         "patterns": ["what is your name", "what should I call you", "whats your name?"],
+         "responses": ["You can call me Moa.", "I'm Moa!", "I'm Moa aka Your FLower Guide."],
+         "context_set": ""
+        },
+        {"tag": "specialise",
+         "patterns": ["Id like to buy something", "whats on the menu", "what do you reccommend?", "could i get some options","what do you specialise in?"],
+         "responses": ["We are a flower library!", "We expertize in Flowers !", "FLOWERS!!!! Always:)"],
+         "context_set": ""
+        },
+        
+        {"tag": "list",
+         "patterns": [ "What flowers have you got","what types of flowers do you know", "whats on your flower-list?","whats on your list?"],
+         "responses": [" I have got a range of flowers in my library with their names in alphabetical order.\n Please type the name or a the first Alphabet to see the list."],
+         "context_set": ""
+        },
+        
+        {"tag": "Letter A",
+         "patterns": [ "I would like to know flowers starting with letter A","may i get the list of flowers with A", "flower-list with letter A","a"],
+         "responses": ["The list of Flowers with Alphabet A:\n Acacia\n Acanthus\n Aloe- Socotrine\n Amaranth\n American ash\n Angelica\n Anthericum\n Arum\n Arum- Fly-catching\n Ash-leaved Trumpet-flower \n Aspen \n Aster- China"],
+         "context_set": ""
+        },
+        
+        {"tag": "Letter B",
+         "patterns": [ "I would like to know flowers starting with letter B","may i get the list of flowers with B", "flower-list with letter B","b"],
+         "responses": ["The list of Flowers with Alphabet B:\n Barberry \n Basil \n Bellflower \n Bellflower-pyramidal, Bindweed-field\n Blackthorn \n Bladder-serena \n Bluebottle \n Borage \n Bramble \n Broom-prickly \n Broom-spanish \n Broomrape \n Bryony \n Buck-Bean \n Bugloss \n Burdock"],
+         "context_set": ""
+        },
+        
+        
+        {"tag": "Letter D",
+         "patterns": [ "I would like to know flowers starting with letter D","may i get the list of flowers with D", "flower-list with letter D","D"],
+         "responses": ["The list of flowers with Alphabet D: Dahila \n Daffolia n Daisy-double \n Daisy-single \n Daisy-wild \n Dandelion \n Date-plum \n Daylily-yellow \n Dittany of crete \n Dittany -white \n Dock \n Dodder \n Dragon-plant"],
+         "context_set": ""
+        },
+        {"tag": "Others",
+         "patterns": [ "what other flowers do yu know?", "Do you know any other flowers", "what general flowers do you know", "list of most common flowers"],
+         "responses": ["Moa's database consist 3 flowers which are : \n Rose \n Sunflower \n Lily \n The list will expand soon "],
+         "context_set": ""
+        },
+        
+        {"tag": "Rose",
+         "patterns": [ "Rose", "Can you tell me about Roses", "What are Roses", "Information on Roses"],
+         "responses": ["Rose (plant):\n Alternate title Rosa \nose, (genus Rosa), genus of some 100 species of perennial shrubs in the rose family (Rosaceae). Roses are native primarily to the temperate regions of the Northern Hemisphere. Many roses are cultivated for their beautiful flowers, which range in colour from white through various tones of yellow and pink to dark crimson and maroon, and most have a delightful fragrance, which varies according to the variety and to climatic conditions. \nMost rose species are native to Asia, with smaller numbers being native to North America and a few to Europe and northwest Africa. Roses from different regions of the world hybridize readily, giving rise to types that overlap the parental forms, and making it difficult to determine basic species. Fewer than 10 species, mostly native to Asia, were involved in the crossbreeding that ultimately produced today’s many types of garden roses.\n Please look at this link for more information about Roses: https://www.britannica.com/plant/rose-plant"],
+         "context_set": ""
+        },
+        
+        {"tag": "lily",
+         "patterns": [ "lily","lithium" ,"Can you tell me about lilies", "What are lilies", "Information on lily"],
+         "responses": ["Lilium is a genus of herbaceous flowering plants growing from bulbs, all with large prominent flowers. They are the true lilies. Lilies are a group of flowering plants which are important in culture and literature in much of the world. Most species are native to the northern hemisphere and their range is temperate climates and extends into the subtropics. Many other plants have lily in their common names, but do not belong to the same genus and are therefore not true lilies. \n \n Look the link for more information : https://en.wikipedia.org/wiki/Lilium"],
+         "context_set": ""
+        },
+        
+        {"tag": "sunflower",
+         "patterns": [ "sunflower","Helianthus" ,"Can you tell me about sunflowers", "What are sunflowers", "Information on sunflower"],
+         "responses": [ "Helianthus is a genus comprising about 70 species of annual and perennial flowering plants in the daisy family Asteraceae commonly known as sunflowers. Except for three South American species, the species of Helianthus are native to North America and Central America. The best-known species is the common sunflower (Helianthus annuus), whose round flower heads in combination with the ligules look like the Sun. This and other species, notably Jerusalem artichoke (H. tuberosus), are cultivated in temperate regions and some tropical regions as food crops for humans, cattle, and poultry, and as ornamental plants.[7] The species H. annuus typically grows during the summer and into early fall, with the peak growth season being mid-summer. \n \n Look at the link please: https://en.wikipedia.org/wiki/Helianthus"],
+         "context_set": ""
+        },
+        {"tag": "e to z",
+         "patterns": [ "e","f","g","h","i","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"],
+         "responses": ["The list of Flower for his Alphabet is not currently available. Please come back later.\n Apologises for the in-covinence" ],
+         "context_set": ""
+        }
+    
+        
+        
+        
+       
+        
+        
+       
+   ]
+}
